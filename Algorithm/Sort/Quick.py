@@ -33,3 +33,4 @@ def partition(data, left, right):
 if __name__ == '__main__':
     lis = [5, 3, 2, 4, 1, 10, 7, 9, 6, 8]
     print(quick_sort(lis, 0, len(lis) - 1))
+    import heapq
